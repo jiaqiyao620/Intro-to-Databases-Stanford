@@ -86,7 +86,7 @@ group by name
 having count(mID) >= 3;
 ```
 ***
-Extra Practice
+# Extra Practice
 
 Q1. Find the names of all reviewers who rated Gone with the Wind. 
 
