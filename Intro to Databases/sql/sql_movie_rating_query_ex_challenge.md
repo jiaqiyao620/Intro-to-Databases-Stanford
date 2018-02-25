@@ -15,7 +15,7 @@ select title, year, avg(stars) as average
 from movie join rating using(mID)
 group by title, year, mID;
 ```
-first try to compute average ratings of the movies
+>*first try to compute average ratings of the movies*
 ```sql
 select avg(average1) - avg(average2)
 from (select title, year, avg(stars) as average1
